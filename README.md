@@ -5,7 +5,7 @@ NLI_final.ipynb, is the file of the coding part of the Logic and Language final 
 * Data preparation
 * Data analysis, and automatic filter design
 
-Two .csv files are the result data of models' prediction (not the result of our designed filter), with the human manual check and some modifications. It's a merged version of the result of the "Data preparation" section in NLI_final.ipynb. And these two files will be used in the second section "Data analysis, and automatic filter design" to test the filter performance.
+Three .csv files are the result data of models' prediction (not the result of our designed filter), with the human manual check and some modifications. It's a merged version of the result of the "Data preparation" section in NLI_final.ipynb. And these two files will be used in the second section "Data analysis, and automatic filter design" to test the filter performance.
 
 
 # NLI_final.ipynb:
@@ -38,7 +38,7 @@ This section is for loading the two datasets we tested. which are:
 This section is for using the test sets of the mentioned datasets to test models' performance and downing the result as .csv files.
 
 ## Data analysis, and automatic filter design
-To run this section, you first need to upload the two .csv file into colab pages, which are already in this repository. You can run this section in CPU mode.
+To run this section, you first need to upload the three .csv file into colab pages, which are already in this repository. You can run this section in CPU mode.
 
 After manually checking the result of the prediction, we conclusion following 4 rules (patterns) that can be used to build a rule-based filter. Four rules:
 * Check for ungrammatical words in the hypothesis (this is not strictly a subset of rule 3)
