@@ -1,5 +1,6 @@
 # Most-difficult-problem-for-Logic-and-Language
 This repository contains three files. 
+
 NLI_final.ipynb, is the file of the coding part of the Logic and Language final project. Which contains two parts:
 * Data preparation
 * Data analysis, and automatic filter design
