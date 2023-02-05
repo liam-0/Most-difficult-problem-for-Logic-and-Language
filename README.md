@@ -45,3 +45,5 @@ After manually checking the result of the prediction, we conclusion following 4 
 * Check for words with a (highly) negative meaning in the hypothesis
 * Check for ungrammatical sentence structure in the hypothesis
 * Check for ungrammatical sentence structure in the premise
+
+The automatic filter is based on the 4 rules we concluded.
